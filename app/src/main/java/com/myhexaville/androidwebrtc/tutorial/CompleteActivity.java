@@ -106,7 +106,8 @@ public class CompleteActivity extends AppCompatActivity {
 
     private void connectToSignallingServer() {
         try {
-            socket = IO.socket("https://47.107.132.117");
+//            socket = IO.socket("https://47.107.132.117");
+            socket = IO.socket("http://192.188.0.116:8081");
 
             socket.on(EVENT_CONNECT, args -> {
                 Log.d(TAG, "connectToSignallingServer: connect");
