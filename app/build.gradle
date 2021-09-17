@@ -16,7 +16,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     compileSdkVersion 30
-    buildToolsVersion '30.0.3'
+//    buildToolsVersion '30.0.3'
     dataBinding {
         enabled true
     }
